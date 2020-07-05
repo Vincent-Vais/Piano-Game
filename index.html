@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <p class='title'>Piano Player</p>
+  <p id='demo'>Follow the song below to play  the piano.</p>
+
+  <div id="piano-top">
+      <div id="left">
+        <div class="rect"></div>
+        <div class="rect"></div>
+      </div>
+      <div id="middle">
+        <div id="piano-display"></div>
+      </div>
+      <div id="right">
+        <div class="piano-sub"></div>
+        <div class="piano-sub"></div>
+      </div>   
+  </div>
+  <section class="piano">
+    <section id='c-key' class="key">
+      <section class='keynote'>C</section>
+    </section>
+    <section id='c-sharp-key' class="black-key">
+      <section class='black-keynote'>C#</section>
+    </section>
+    <section id='d-key' class="key">
+      <section class='keynote'>D</section>
+    </section>
+    <section id='d-sharp-key' class="black-key">
+      <section class='black-keynote'>D#</section>
+    </section>
+    <section id='e-key' class="key">
+      <section class='keynote'>E</section>
+    </section>
+    <section id='f-key' class="key">
+      <section class='keynote'>F</section>
+    </section>
+    <section id='f-sharp-key' class="black-key">
+      <section class='black-keynote'>F#</section>
+    </section>
+    <section id='g-key' class="key">
+      <section class='keynote'>G</section>
+    </section>
+    <section id='g-sharp-key' class="black-key">
+      <section class='black-keynote'>G#</section>
+    </section>
+    <section id='a-key' class="key">
+      <section class='keynote'>A</section>
+    </section>
+    <section id='a-sharp-key' class="black-key">
+      <section class='black-keynote'>A#</section>
+    </section>
+    <section id='b-key' class="key">
+      <section class='keynote'>B</section>
+    </section>
+    <section id='high-c-key' class="key">
+      <div class='keynote'>C</div>
+    </section>
+  </section>
+
+  <section id='lyrics'>
+    <section id='column-1' class="lyrics-columns">
+      <section id="word-one"></section>
+      <section id="letter-note-one"></section>
+    </section>
+    <section id='column-2' class="lyrics-columns">
+      <section id="word-two"></section>
+      <section id="letter-note-two"></section>
+    </section>
+    <section id='column-3' class="lyrics-columns">
+      <section id="word-three"></section>
+      <section id="letter-note-three"></section>
+    </section>
+    <section id='column-4' class="lyrics-columns">
+      <section id="word-four"></section>
+      <section id="letter-note-four"></section>
+    </section>
+    <section id='column-5' class="lyrics-columns">
+      <section id="word-five"></section>
+      <section id="letter-note-five"></section>
+    </section>
+    <section id='column-6' class="lyrics-columns">
+      <section id="word-six"></section>
+      <section id="letter-note-six"></section>
+    </section>
+    <section id='column-7' class='column-optional lyrics-columns'>
+      <section id="word-optional"></section>
+      <section id="letter-note-optional"></section>
+    </section>
+
+    <button id="line-1" class="lines">Line 2</button>
+    <button id="line-2" class="lines">Line 3</button>
+    <button id="line-3" class="lines">Line 4</button>
+    <button id="line-4" class="lines">Reset</button>
+  </section>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.core.min.js"></script>
+  <script src="main.js" defer></script>
+</body>
+</html>
